@@ -17,10 +17,14 @@ New metrics that are send during the run of GraphiteExportandForwarder must be h
 ## Configuration
 Change the values of GraphiteExportandForwarder.exe.config. Following settings are possible:
 
-- maxThreads: Integer value, Defines how many threads are used in parallel to query and export metrics. Keep it on a small value < 10, Default: 2
+- maxThreads: 
+  Integer value
+  Defines how many threads are used in parallel to query and export metrics. Keep it on a small value < 10
+  Default: 2
+  
 - startmetric: Integer value, you can define to skip the first e.g. 100 metrics, Default: 0
 - printStatusEveryXSeconds: Integer value, print out the status every x seconds, Default: 10
-- GraphiteSourceServer: Defines the Source Server Graphite API, Value: https://<servername>:<Port>/
+- GraphiteSourceServer: Defines the Source Server Graphite API, Value: https://[servername]:[Port]/
 - GraphiteDestinationServer: Servername of the destination Graphite server (Carbon compatible): Value: <servername>
 - GraphiteSourceUsername: Username, if needed for Basic HTTP Authentication at source graphite API, Empty for no authentication
 - GraphiteSourcePassword: Password, if needed for Basic HTTP Authentication at source graphite API
