@@ -1,5 +1,5 @@
 # GraphiteExportandForwarder
-Recieves metrics from an Graphite API and send them to another Graphite API
+Querys metrics from an Graphite API and send them to another Graphite API
 
 Copy your existing metrics from one instance to another. This is helpful if you want to change the storage backend of Graphite, the whole stack or move to another server.
 
