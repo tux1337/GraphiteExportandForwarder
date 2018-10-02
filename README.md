@@ -31,6 +31,7 @@ Change the values of GraphiteExportandForwarder.exe.config. Following settings a
 
 ## System Requierments
 - .NET 4.5 or greater on Windows
+
 Mono is not tested.
 
 
