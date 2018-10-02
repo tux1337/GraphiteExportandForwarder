@@ -11,7 +11,7 @@ The tool uses the graphite [HTTP API](https://graphite-api.readthedocs.io/en/lat
 The metrics are send with the [plaintext protocol](https://graphite.readthedocs.io/en/latest/feeding-carbon.html#the-plaintext-protocol) to a carbon compatible API. 
 
 ### New metrics
-New metrics that are send during the run of GraphiteExportandForwarder must be handled with other technics like carbon-relay-ng which is able to send the metrics two multiple graphite instances. 
+New metrics that are send during the run of GraphiteExportandForwarder must be handled with other technics like carbon-relay-ng which is able to send the metrics to multiple graphite instances. 
 
 
 ## Configuration
