@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GraphiteExportandForwarder.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="printStatuseveryXSeconds" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="GraphiteSourceServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://&lt;servername&gt;:&lt;port&gt;/</Value>
+    </Setting>
+    <Setting Name="GraphiteDestinationServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;servername&gt;</Value>
+    </Setting>
+    <Setting Name="GraphiteDestinationCarbonPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2003</Value>
+    </Setting>
+    <Setting Name="GraphiteSourceUsername" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GraphiteSourcePassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DoNotValidateSSLCert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">true</Value>
+    </Setting>
+    <Setting Name="ImportDataFromDateon" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">20150101</Value>
+    </Setting>
+    <Setting Name="OnlyImportMetricsThatStartsWith" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="maxThreads" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="startmetric" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
